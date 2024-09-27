@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+.container .rectangle {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .rectangle .red,
+.container .rectangle .green,
+.container .rectangle .yellow {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+
+.container .rectangle .red {
+    background: red;
+}
+
+.container .rectangle .green {
+    background: green;
+}
+
+.container .rectangle .yellow {
+    background: yellow;
+}
